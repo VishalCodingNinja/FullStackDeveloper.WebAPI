@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FullStackDeveloper.WebAPI.Models
+﻿namespace FullStackDeveloper.WebAPI.Models
 {
 	public class ApplicationSettings
 	{

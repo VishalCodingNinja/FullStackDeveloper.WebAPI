@@ -68,6 +68,7 @@ namespace FullStackDeveloper.WebAPI.Controllers
 			var user = await _userManager.FindByNameAsync(model.UserName);
 			if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
 			{
+
 				//Get role assigned to the user
 				var role = await _userManager.GetRolesAsync(user);
 				IdentityOptions _options = new IdentityOptions();
