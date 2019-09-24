@@ -84,8 +84,8 @@ namespace FullStackDeveloper.WebAPI
 					TermsOfService = new Uri("https://localhost:4200/terms"),
 					Contact = new OpenApiContact
 					{
-						Name = "Shayne Boyer",
-						Email = string.Empty,
+						Name = "Vishal Singh",
+						Email = "Vishal9458425389@gmail.com",
 						Url = new Uri("https://localhost:4200"),
 					},
 					License = new OpenApiLicense
